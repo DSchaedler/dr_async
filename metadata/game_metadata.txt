@@ -2,9 +2,9 @@
 # Do not manually edit this file. Edit Smaug.toml instead.
 
 devid=todo-change-me
-devtitle=TODO: My Name &lt;todo@example.com&gt;
+devtitle=Dee Schaedler
 gameid=async
 gametitle=async
-version=0.1.0
+version=1.0.0
 icon=metadata/icon.png
 compile_ruby=false

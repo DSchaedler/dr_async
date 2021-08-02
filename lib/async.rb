@@ -1,6 +1,5 @@
 # Queue tasks for seperated calculation
 module Async
-
   def queue(method:, arguments: [])
     $async_queue ||= []
     $async_queue << [method, arguments]
