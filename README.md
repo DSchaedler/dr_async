@@ -5,7 +5,7 @@ Pull requests welcome. Please make sure your code passes a basic `rubocop` (with
 ## Usage
 1. Copy the `lib` directory into the root of your project.
 2. In `main.rb`, type `require 'lib/async.rb'` in a new line at the top of your file.
-3. Call `Async.queue(method: method_name, arguments: [argument_1, argument_2])` to add the specified method to the `$async_queue`.
+3. Call `Async.queue(method: :method_name, arguments: [argument_1, argument_2])` to add the specified method to the `$async_queue`.
 4. Call `Async.tick()` to execute the next method in the queue.
 
 ## Details
@@ -14,6 +14,7 @@ Pull requests welcome. Please make sure your code passes a basic `rubocop` (with
 
 # TODO
 - Determine way of capturing the return of a method and providing it to the requesting method.
+- Support namespaced methods.
 
 # Methods
 ### queue(method:, arguments: [] )
