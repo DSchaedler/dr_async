@@ -12,7 +12,10 @@ Pull requests welcome. Please make sure your code passes a basic `rubocop` (with
 - `Async`'s own methods are required to be namespaced.
 - Namespaced methods from other modules are not currenly supported.
 
-## Methods
+# TODO
+- Determine way of capturing the return of a method and providing it to the requesting method.
+
+# Methods
 ### queue(method:, arguments: [] )
 - Add a method call to the `$async_queue`
 
